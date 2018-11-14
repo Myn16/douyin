@@ -1,0 +1,147 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html,body{
+  height: 100%;
+}
+
+.page-container{
+  position: relative;
+  height: 100%;
+}
+
+.page-video-bg{
+  height: 100%;
+}
+
+.page-video-bg video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.page-content{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
+
+.page-header nav{
+  position: absolute;
+  right:80px;
+  margin-top: 30px;
+  padding-top: 20px;
+  padding-right: 100px;
+  text-align: right;
+}
+
+.links-item{
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: middle; 
+  margin-left: 25px;
+  text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.logo{
+  margin-left: 68px;
+  position: absolute;
+  left: 15px;
+  top:30px;
+}
+
+.page-mainer{
+  width: 500px; 
+  position: absolute; 
+  top: 50%; 
+  transform: translateY(-50%); 
+  margin-top: 50px; 
+  right: 150px;
+}
+
+.slogan{
+  float: right; 
+  width: 450px; 
+  margin-bottom: 50px; 
+}
+
+.slogan img{
+  width: 100%;
+}
+
+.btn-list{
+  display: flex;
+  float: right; 
+  letter-spacing: -4px;
+  font-size: 0px; 
+}
+
+.appstore img{
+  width: 130px;
+  height: 50px;
+  margin-left: 15px;
+  border-radius: 5px;
+  box-shadow:0 0 5px 0 #000000;
+}
+
+.appstore img:hover{
+  font-weight: bold;
+  opacity: 0.9;
+  box-shadow:0 0 5px 0 #000000;
+}
+
+.android img{
+  width: 130px;
+  height: 50px;
+  margin-left: 15px;
+  border-radius: 5px;
+  box-shadow:0 0 5px 0 #000000;
+}
+
+.android img:hover{
+  font-weight: bold;
+  opacity: 0.9;
+  box-shadow:0 0 5px 0 #000000;
+}
+
+.QRcode img{
+  width: 51.29px;
+  height: 51.29px;
+  margin-left: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.6s;
+  box-shadow:0 0 5px 0 #000000;
+}
+
+.QRcode img:hover{
+  transform: scale(5);
+  text-align: left;
+}
+
+.page-footer{
+  font-size: 14px;
+  position: absolute;
+  text-align: center;
+  bottom: 10px;
+  width: 100%
+}
+
+.page-footer nav a{
+  color: #fff;
+  text-decoration: none;
+  text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.page-footer div a{
+  color: #fff;
+  text-decoration: none;
+  text-shadow: black 0.1em 0.1em 0.2em
+}
